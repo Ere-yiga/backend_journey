@@ -1,7 +1,8 @@
-package main
-
 import "fmt"
 
-func main(){
-	fmt.Println("Hello, world")
+func main() {
+    var name string = "Ere"
+    gender := "male"
+
+    fmt.Println(name, age)
 }
