@@ -23,7 +23,7 @@ func main(){
 	fmt.Println(c, err)
 
 	//we also have parseint.
-	//it comes with somet things thoug, the value, base and bits
+	//it comes with somethings though, the value, base and bits
 
 	b := "234"
 	d, err := strconv.ParseInt(b, 10, 0)
