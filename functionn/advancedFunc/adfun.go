@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-//passing a fiuinction as a parameter to another function
+//passing a function as a parameter to another function
 
 func callFunc(callab func (int) int) int{
 	return callab(10)
@@ -17,6 +17,13 @@ func tripleNum(num int) int{
 }
 
 func main(){
+	value := callFunc(tripleNum)
+	fmt.Println(value)
+	
+	//anonymous functions - they are also 	called nameless functions
 
-	fmt.Println()
+	anonym := callFunc(func (x int) int{
+		return x + 12
+	})
+	fmt.Println(anonym)
 }
