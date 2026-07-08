@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-//In golang, you call out the data type
+//In golang, you write out the name of the function, then you call out the data type, and put in what data type it will return, then your return keyword
 
 func div(num1 int, num2 int) int{
 	return num1 / num2
