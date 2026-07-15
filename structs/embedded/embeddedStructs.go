@@ -14,10 +14,12 @@ type Person struct{
 	favSport Sport
 	//embedding a struct inside another struct, use slice
 
-	favSports [] Sport
+	favSports []Sport
 }
 
 func main(){
-	p1 := Person(age: 23, name: "Tim", favSport: []Sport{"soccer", "D"}) 
+	p1 := Person{
+		age: 23, name: "Tim", favSport: Sport{"soccer", "D"},
+		} 
 	fmt.Println(p1.favSport.position)
 }
