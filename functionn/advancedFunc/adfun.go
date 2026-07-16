@@ -27,3 +27,6 @@ func main(){
 	})
 	fmt.Println(anonym)
 }
+
+//look into named return value
+//
