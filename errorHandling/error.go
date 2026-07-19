@@ -51,7 +51,7 @@ func main(){
 	result, err := divide(4, 0)
 
 	if err != nil{
-		fmt.Println("error occured")
+		fmt.Println("error occured,", err)
 	}else{
 		fmt.Println(result)
 	}

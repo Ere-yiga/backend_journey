@@ -17,7 +17,7 @@ type Rectangle struct{
 }
 
 func (c Circle) Area() float64{
-	return c.pi * c.r * c.r
+	return c.pi * (c.r * c.r)
 } 
 
 func (d Rectangle) Area() float64{
