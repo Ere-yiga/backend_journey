@@ -1,0 +1,19 @@
+// We have different threads, which make up a process.
+
+// A process is some application tha runs on the computer
+
+// We can have multiple threads in a process, or just one
+
+// These different threads get scheduled to run on the CPU
+
+// The CPU executes these different threads, switches them, so it can work on them in the same time
+
+// As a programer, if we split our apps into multiple threads, speed can be increased in running our codes...since we use differnt core
+
+//Multithreading is distributing a program into multiple independedt threads that cna run independedly of each other, and putting them on multiple CPU core.
+
+// We won't be the ones to say a thread should be run either on core one, two or so..Our CPU and Programming language will do it. We will be the ones to separate different logical piece pf codes on these different threads, so we can take advantage of multithreading and parallel processing.
+
+
+// When do use threading
+	//When you want to fetch a chat history, load friends, and create a post function for a user in your app, instead of putting everything in a thread, which can take time to send and recieve from the server, you can just separate/create more threads for each process... this speeds up time and lead to a better  performance
