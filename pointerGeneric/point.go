@@ -72,15 +72,15 @@ func test(pointerSlice *[]*int){
 	values := *pointerSlice
 
 	for _, value := range values{
-		value
+		fmt.Println(value)
 	}
 }
 
 func main(){
 	a := 1
 	b := 2
-	values := &[]*int(&a, &b)
-	fmt.Println()
+	values := []*int{&a, &b}
+	fmt.Println(&values)
 }
 
 
